@@ -1,0 +1,13 @@
+[user]
+        name = Andrew
+        email = andrew.dale.wylie@gmail.com
+
+[core]
+        autocrlf = input
+        editor = vim
+        safecrlf = true
+
+[color]
+        branch = auto
+        diff = auto
+        status = auto
