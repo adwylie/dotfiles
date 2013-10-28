@@ -9,12 +9,17 @@ Bundle 'gmarik/vundle'
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'bling/vim-airline'
-Bundle 'othree/html5.vim'
+Bundle 'tpope/vim-fugitive'
+Bundle 'scrooloose/syntastic'
+Bundle 'jmcantrell/vim-virtualenv'
+Bundle 'altercation/vim-colors-solarized'
+
 Bundle 'ap/vim-css-color'
+
+Bundle 'othree/html5.vim'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'pangloss/vim-javascript'
 Bundle 'gmarik/vim-markdown'
-Bundle 'altercation/vim-colors-solarized'
 
 filetype plugin indent on
 
@@ -29,9 +34,19 @@ colorscheme solarized
 set laststatus=2
 set t_Co=256
 set encoding=utf-8
+let g:airline#extensions#branch#enabled=1
+let g:airline#extensions#branch#emptymessage=''
+let g:airline#extensions#syntastic#enabled = 1
 let g:airline#extensions#tabline#enabled=1
+let g:airline#extensions#virtualenv#enabled=1
 let g:airline_powerline_fonts=1
 let g:airline_theme='solarized'
+
+" switch ordering of branch and hunks indicator
+function! AirlineInit()
+  let g:airline_section_b = airline#section#create(['branch', ' ', 'hunks'])
+endfunction
+autocmd VimEnter * call AirlineInit()
 
 
 " vim-gitgutter customization
