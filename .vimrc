@@ -36,7 +36,7 @@ let g:airline_theme='solarized'
 
 " vim-gitgutter customization
 let g:gitgutter_sign_column_always=1
-highlight SignColumn ctermbg=black
+au colorscheme * highlight SignColumn ctermbg=256
 
 
 " Separate tabbing widths for specific languages
