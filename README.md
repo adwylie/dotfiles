@@ -3,12 +3,11 @@
 Basic setup:
 * Get the correct version & build of Vim (1)
 * Clone the repositories & set up links
-    ```shell
-    git clone https://github.com/awylie/dotfiles.git ~/dotfiles
-    cd ~ && ln -s dotfiles/.vimrc .vimrc
-    git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-    vim +BundleInstall +qall
-    ```
+
+        git clone https://github.com/awylie/dotfiles.git ~/dotfiles
+        cd ~ && ln -s dotfiles/.vimrc .vimrc
+        git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+        vim +BundleInstall +qall
 * [Build YouCompleteMe](https://github.com/Valloric/YouCompleteMe#ubuntu-linux-x64-super-quick-installation)
 * [Install powerline fonts](https://powerline.readthedocs.org/en/latest/installation/linux.html#font-installation) (2)
 * [Install gnome terminal colors](https://github.com/sigurdga/gnome-terminal-colors-solarized#installation-and-usage) (3)
