@@ -14,7 +14,8 @@ Bundle 'scrooloose/syntastic'
 Bundle 'jmcantrell/vim-virtualenv'
 Bundle 'altercation/vim-colors-solarized'
 
-Bundle 'ap/vim-css-color'
+"Bundle 'ap/vim-css-color'
+Bundle 'gorodinskiy/vim-coloresque'
 
 Bundle 'othree/html5.vim'
 Bundle 'kchmck/vim-coffee-script'
