@@ -97,6 +97,8 @@ set nostartofline              " Keep cursor at same column for some commands
 set ruler                      " Show line and column of cursor position
 set wrap                       " Wrap lines longer than width of the window
 set linebreak                  " Wrap lines at specific characters (see brk)
+set foldmethod=syntax          " Allow folding based on language syntax
+set foldlevelstart=99          " Stop from auto-folding when opening files
 
 syntax on
 
