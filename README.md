@@ -1,4 +1,4 @@
-### dotfiles
+## Dotfiles
 
 Basic setup:
 * Get the correct version & build of Vim (1)
