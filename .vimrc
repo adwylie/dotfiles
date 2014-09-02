@@ -11,18 +11,14 @@ Bundle 'airblade/vim-gitgutter'
 Bundle 'bling/vim-airline'
 Bundle 'tpope/vim-fugitive'
 Bundle 'scrooloose/syntastic'
-Bundle 'jmcantrell/vim-virtualenv'
 Bundle 'altercation/vim-colors-solarized'
-
-"Bundle 'ap/vim-css-color'
 Bundle 'gorodinskiy/vim-coloresque'
 
 Bundle 'othree/html5.vim'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'pangloss/vim-javascript'
 Bundle 'gmarik/vim-markdown'
-
-filetype plugin indent on
+Bundle 'jmcantrell/vim-virtualenv'
 
 
 " vim-colors-solarized
@@ -56,12 +52,13 @@ au colorscheme * highlight SignColumn ctermbg=256
 
 
 " Separate tabbing widths for specific languages
-au FileType html setl sw=2 ts=2 sts=2
-au FileType php  setl sw=2 ts=2 sts=2
-au FileType css  setl sw=2 ts=2 sts=2
-au FileType js   setl sw=2 ts=2 sts=2
+filetype plugin indent on
 
-filetype plugin on
+autocmd filetype html setlocal sw=2 ts=2 sts=2
+autocmd filetype css setlocal sw=2 ts=2 sts=2
+autocmd filetype js setlocal sw=2 ts=2 sts=2
+autocmd filetype htmldjango setlocal sw=2 ts=2 sts=2
+
 let g:clipbrdDefaultReg = '+'
 
 " When searching move cursor to the next/previous match
@@ -76,7 +73,7 @@ vnoremap k gk
 
 set completeopt-=preview       " Don't show extra info in preview window
 set backspace=indent,eol,start " Allow backspace to work
-set lines=40 columns=85        " Set size of vim window
+set lines=50 columns=85        " Set size of vim window
 set showcmd                    " Show (partial) command on last line
 set grepprg=grep\ -nH\ $*      " Use grep for grep command..
 set autoindent                 " Copy indent from current line for a new line
