@@ -73,7 +73,7 @@ vnoremap k gk
 
 set completeopt-=preview       " Don't show extra info in preview window
 set backspace=indent,eol,start " Allow backspace to work
-set lines=50 columns=85        " Set size of vim window
+set lines=45 columns=85        " Set size of vim window
 set showcmd                    " Show (partial) command on last line
 set grepprg=grep\ -nH\ $*      " Use grep for grep command..
 set autoindent                 " Copy indent from current line for a new line
