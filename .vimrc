@@ -54,6 +54,8 @@ au colorscheme * highlight SignColumn ctermbg=256
 " Separate tabbing widths for specific languages
 filetype plugin indent on
 
+autocmd filetype c setlocal sw=2 ts=2 sts=2
+autocmd filetype cpp setlocal sw=2 ts=2 sts=2
 autocmd filetype html setlocal sw=2 ts=2 sts=2
 autocmd filetype css setlocal sw=2 ts=2 sts=2
 autocmd filetype javascript setlocal sw=2 ts=2 sts=2
