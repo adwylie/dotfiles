@@ -11,6 +11,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/syntastic'
+Plugin 'scrooloose/nerdtree'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'gorodinskiy/vim-coloresque'
 
@@ -21,6 +22,7 @@ Plugin 'gmarik/vim-markdown'
 Plugin 'jmcantrell/vim-virtualenv'
 
 call vundle#end()
+
 
 " vim-colors-solarized
 syntax enable
@@ -52,6 +54,10 @@ let g:gitgutter_sign_column_always=1
 au colorscheme * highlight SignColumn ctermbg=256
 
 
+" nerdtree
+map <C-n> :NERDTreeToggle<CR>
+
+
 " Separate tabbing widths for specific languages
 filetype plugin indent on
 
@@ -61,17 +67,16 @@ autocmd filetype htmldjango setlocal sw=2 ts=2 sts=2
 
 let g:clipbrdDefaultReg = '+'
 
+
 " When searching move cursor to the next/previous match
 map N Nzz
 map n nzz
+
 
 " Up/down on wrapping lines will move visually instead of logically
 no j gj
 no k gk
 
-" Set moving through buffers as the default
-map :n :bn
-map :N :bN
 
 set completeopt-=preview       " Don't show extra info in preview window
 set backspace=indent,eol,start " Allow backspace to work
@@ -101,10 +106,10 @@ set foldlevelstart=99          " Stop from auto-folding when opening files
 
 syntax on
 
+
 " Set a vertical rule if possible
 if exists('+colorcolumn')
   set colorcolumn=79
 else
   au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>79v.\+', -1)
 endif
-
