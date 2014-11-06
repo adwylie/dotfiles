@@ -65,10 +65,12 @@ map N Nzz
 map n nzz
 
 " Up/down on wrapping lines will move visually instead of logically
-nnoremap j gj
-nnoremap k gk
-vnoremap j gj
-vnoremap k gk
+no j gj
+no k gk
+
+" Set moving through buffers as the default
+map :n :bn
+map :N :bN
 
 set completeopt-=preview       " Don't show extra info in preview window
 set backspace=indent,eol,start " Allow backspace to work
