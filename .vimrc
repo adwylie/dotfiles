@@ -56,7 +56,6 @@ filetype plugin indent on
 
 autocmd filetype html setlocal sw=2 ts=2 sts=2
 autocmd filetype css setlocal sw=2 ts=2 sts=2
-autocmd filetype js setlocal sw=2 ts=2 sts=2
 autocmd filetype htmldjango setlocal sw=2 ts=2 sts=2
 
 let g:clipbrdDefaultReg = '+'
