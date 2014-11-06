@@ -17,7 +17,7 @@ Basic setup:
 
 * Install the vim bundles
 
-        vim +BundleInstall +qall
+        vim +PluginInstall +qall
 
 Notes:
 
