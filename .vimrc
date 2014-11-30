@@ -70,10 +70,6 @@ autocmd filetype htmldjango setlocal sw=2 ts=2 sts=2
 let g:clipbrdDefaultReg = '+'
 
 
-" Map open file navigation to buffers.
-no :n<CR> :bn<CR>
-no :N<CR> :bN<CR>
-
 
 " When searching move cursor to the next/previous match
 map N Nzz
