@@ -14,14 +14,10 @@ Basic setup:
 * [Build YouCompleteMe](https://github.com/Valloric/YouCompleteMe#ubuntu-linux-x64-super-quick-installation)
 * Install terminal colors ([linux](https://github.com/sigurdga/gnome-terminal-colors-solarized)/[mac](https://github.com/tomislav/osx-terminal.app-colors-solarized))
 
-* Install the vim bundles (2)
+* Install the vim bundles
 
         vim +PluginInstall +qall
 
 Notes:
 
-1.  [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) requires Vim
-    7.3.584 (or greater) with python2 support.
-
-2.  On Mac OS X I've installed MacVim with brew and aliased
-    `alias vim='mvim -v'`.  All other steps work without changes.
+1.  [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) requires Vim 7.3.584 (or greater) with python2 support.  On Mac OS X I've installed MacVim with brew and aliased `alias vim='mvim -v'`.  All other steps work without changes.
