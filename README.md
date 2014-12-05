@@ -12,7 +12,7 @@ Basic setup:
 
 
 * [Build YouCompleteMe](https://github.com/Valloric/YouCompleteMe#ubuntu-linux-x64-super-quick-installation)
-* Install gnome terminal colors ([linux](https://github.com/sigurdga/gnome-terminal-colors-solarized#installation-and-usage)/[mac](https://github.com/tomislav/osx-terminal.app-colors-solarized))
+* Install gnome terminal colors ([linux](https://github.com/sigurdga/gnome-terminal-colors-solarized)/[mac](https://github.com/tomislav/osx-terminal.app-colors-solarized))
 
 * Install the vim bundles (2)
 
