@@ -1,3 +1,7 @@
+" Set the leader.
+let mapleader = ","
+
+
 " Vundle
 set nocompatible
 filetype off
@@ -70,7 +74,6 @@ autocmd filetype htmldjango setlocal sw=2 ts=2 sts=2
 let g:clipbrdDefaultReg = '+'
 
 
-
 " When searching move cursor to the next/previous match
 map N Nzz
 map n nzz
@@ -106,6 +109,7 @@ set wrap                       " Wrap lines longer than width of the window
 set linebreak                  " Wrap lines at specific characters (see brk)
 set foldmethod=syntax          " Allow folding based on language syntax
 set foldlevelstart=99          " Stop from auto-folding when opening files
+set tw=79                      " Set the text width for line wrapping (gq)
 
 syntax on
 
