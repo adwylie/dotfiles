@@ -5,7 +5,7 @@ Basic setup:
 * Clone the repositories & set up links
 
         git clone https://github.com/awylie/dotfiles.git ~/dotfiles
-        cd ~ && ln -s dotfiles/.vimrc .vimrc
+        <create symlinks here>
         git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
         git clone --recursive https://github.com/Valloric/YouCompleteMe.git \
             ~/.vim/bundle/YouCompleteMe
