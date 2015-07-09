@@ -19,11 +19,14 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'gorodinskiy/vim-coloresque'
 
+Plugin 'rizzatti/dash.vim'
 Plugin 'othree/html5.vim'
-Plugin 'kchmck/vim-coffee-script'
 Plugin 'pangloss/vim-javascript'
-Plugin 'gmarik/vim-markdown'
 Plugin 'jmcantrell/vim-virtualenv'
+Plugin 'tpope/vim-fireplace'
+"Plugin 'kchmck/vim-coffee-script'
+"Plugin 'fatih/vim-go'
+"Plugin 'gmarik/vim-markdown'
 
 call vundle#end()
 
@@ -119,4 +122,10 @@ if exists('+colorcolumn')
   set colorcolumn=79
 else
   au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>79v.\+', -1)
+endif
+
+" If editing the crontab..
+if $VIM_CRONTAB == "true"
+  set nobackup
+  set nowritebackup
 endif

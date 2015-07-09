@@ -3,7 +3,7 @@
         email = andrew.dale.wylie@gmail.com
 
 [core]
-        autocrlf = input
+        autocrlf = false
         editor = vim
         safecrlf = true
 
@@ -11,3 +11,5 @@
         branch = auto
         diff = auto
         status = auto
+[push]
+	default = matching
