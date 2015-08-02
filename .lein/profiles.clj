@@ -1,1 +1,4 @@
-{:user {:plugins [[cider/cider-nrepl "0.9.1"]]}}
+{:user {:plugins [[cider/cider-nrepl "0.9.1"]
+                  [lein-ancient "0.6.7"]
+                  [lein-kibit "0.1.2"]
+                  [jonase/eastwood "0.2.1"]]}} ; Clojure/JVM only.
