@@ -87,6 +87,13 @@ no j gj
 no k gk
 
 
+" Easier split navigation
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+
 set completeopt-=preview       " Don't show extra info in preview window
 set backspace=indent,eol,start " Allow backspace to work
 set lines=45 columns=85        " Set size of vim window
@@ -113,6 +120,8 @@ set linebreak                  " Wrap lines at specific characters (see brk)
 set foldmethod=syntax          " Allow folding based on language syntax
 set foldlevelstart=99          " Stop from auto-folding when opening files
 set tw=79                      " Set the text width for line wrapping (gq)
+set splitbelow                 " Split a new window below the current one
+set splitright                 " Split a new window right of the current one
 
 syntax on
 
