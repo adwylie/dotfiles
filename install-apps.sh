@@ -41,8 +41,10 @@ brew install ${bins[@]}
 apps=(
   adobe-reader
   firefox
+  flux
   gimp
   google-chrome
+  java
   keepassx
   kiwix
   lastfm
@@ -50,6 +52,7 @@ apps=(
   musicbrainz-picard
   skype
   vlc
+  webstorm
   xact
 )
 
