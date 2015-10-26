@@ -60,6 +60,9 @@ autocmd VimEnter * call AirlineInit()
 let g:gitgutter_sign_column_always=1
 au colorscheme * highlight SignColumn ctermbg=256
 
+" syntastic customization
+let g:syntastic_html_tidy_ignore_errors=[ ' proprietary attribute ', 'trimming empty <', 'unescaped &']
+let g:syntastic_javascript_checkers=['standard']
 
 " nerdtree
 map <C-n> :NERDTreeToggle<CR>
@@ -73,6 +76,7 @@ autocmd filetype cpp setlocal sw=2 ts=2 sts=2
 autocmd filetype html setlocal sw=2 ts=2 sts=2
 autocmd filetype css setlocal sw=2 ts=2 sts=2
 autocmd filetype htmldjango setlocal sw=2 ts=2 sts=2
+autocmd filetype javascript setlocal sw=2 ts=2 sts=2
 
 let g:clipbrdDefaultReg = '+'
 

@@ -27,6 +27,7 @@ bins=(
   python3
   rbenv
   ruby-build
+  # tidy-html5
 )
 
 echo "Installing binaries..."
@@ -51,6 +52,7 @@ apps=(
   libreoffice
   musicbrainz-picard
   skype
+  smcfancontrol
   vlc
   webstorm
   xact
