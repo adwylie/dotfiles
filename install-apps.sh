@@ -41,6 +41,7 @@ brew install ${bins[@]}
 
 apps=(
   adobe-reader
+  android-file-transfer
   firefox
   flux
   gimp
