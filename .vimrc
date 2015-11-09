@@ -71,13 +71,6 @@ map <C-n> :NERDTreeToggle<CR>
 " Separate tabbing widths for specific languages
 filetype plugin indent on
 
-autocmd filetype c setlocal sw=2 ts=2 sts=2
-autocmd filetype cpp setlocal sw=2 ts=2 sts=2
-autocmd filetype html setlocal sw=2 ts=2 sts=2
-autocmd filetype css setlocal sw=2 ts=2 sts=2
-autocmd filetype htmldjango setlocal sw=2 ts=2 sts=2
-autocmd filetype javascript setlocal sw=2 ts=2 sts=2
-
 let g:clipbrdDefaultReg = '+'
 
 
@@ -100,15 +93,15 @@ nnoremap <C-H> <C-W><C-H>
 
 set completeopt-=preview       " Don't show extra info in preview window
 set backspace=indent,eol,start " Allow backspace to work
-set lines=45 columns=85        " Set size of vim window
+set lines=45 columns=87        " Set size of vim window
 set showcmd                    " Show (partial) command on last line
 set grepprg=grep\ -nH\ $*      " Use grep for grep command..
 set autoindent                 " Copy indent from current line for a new line
 set expandtab                  " (Insert mode) use spaces for tabs
 set smarttab                   " <tab> in front of a line will use shiftwidth
-set tabstop=4                  " Number of spaces that <tab> counts for
-set shiftwidth=4               " Number of spaces for each (auto)indent
-set softtabstop=4              " Number of spaces to replace tabs by
+set tabstop=2                  " Number of spaces that <tab> counts for
+set shiftwidth=2               " Number of spaces for each (auto)indent
+set softtabstop=2              " Number of spaces to replace tabs by
 set number                     " Show line numbers
 set ignorecase                 " Ignore case when searching
 set smartcase                  " Override ignorecase; Caps. matched in search

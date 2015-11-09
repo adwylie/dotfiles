@@ -52,8 +52,10 @@ apps=(
   lastfm
   libreoffice
   musicbrainz-picard
+  qbittorrent
   skype
   smcfancontrol
+  steam
   vlc
   webstorm
   xact
