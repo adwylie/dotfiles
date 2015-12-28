@@ -17,7 +17,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/syntastic'
 Plugin 'scrooloose/nerdtree'
 Plugin 'altercation/vim-colors-solarized'
-Plugin 'gorodinskiy/vim-coloresque'
+"Plugin 'gorodinskiy/vim-coloresque'
 
 Plugin 'rizzatti/dash.vim'
 Plugin 'othree/html5.vim'
@@ -63,6 +63,7 @@ au colorscheme * highlight SignColumn ctermbg=256
 " syntastic customization
 let g:syntastic_html_tidy_ignore_errors=[ ' proprietary attribute ', 'trimming empty <', 'unescaped &']
 let g:syntastic_javascript_checkers=['standard']
+let g:syntastic_python_python_exec='/usr/local/bin/python3'
 
 " nerdtree
 map <C-n> :NERDTreeToggle<CR>

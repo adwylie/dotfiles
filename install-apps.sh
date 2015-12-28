@@ -27,7 +27,6 @@ bins=(
   python3
   rbenv
   ruby-build
-  # tidy-html5
 )
 
 echo "Installing binaries..."
@@ -46,16 +45,21 @@ apps=(
   flux
   gimp
   google-chrome
+  google-hangouts
   java
   keepassx
+  keka
   kiwix
   lastfm
   libreoffice
   musicbrainz-picard
   qbittorrent
+  silverlight
+  sketchup
   skype
   smcfancontrol
   steam
+  steermouse
   vlc
   webstorm
   xact
@@ -63,4 +67,8 @@ apps=(
 
 echo "Installing applications..."
 brew cask install ${apps[@]}
+
+brea cask install  battle-net
+open /opt/homebrew-cask/Caskroom/battle-net/latest/Battle.net-Setup-enUS.app
+
 brew cask cleanup
