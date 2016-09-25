@@ -13,6 +13,8 @@
 # - https everywhere
 # - perapera
 
+# yamaha thr10 usb drivers.
+
 if test ! $(which brew); then
   echo "Installing homebrew..."
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -21,12 +23,16 @@ fi
 brew update
 
 bins=(
-  cmake
   git
+  leiningen
+  macvim
+  node
   postgresql
   python3
   rbenv
   ruby-build
+  sqlite
+  wget
 )
 
 echo "Installing binaries..."
@@ -40,29 +46,23 @@ brew install ${bins[@]}
 
 apps=(
   adobe-reader
-  android-file-transfer
+  anki
   firefox
-  flux
   gimp
-  google-chrome
+  garmin-express
   google-hangouts
   java
   keepassx
-  keka
-  kiwix
   lastfm
   libreoffice
   musicbrainz-picard
   qbittorrent
-  silverlight
   sketchup
   skype
-  smcfancontrol
   steam
-  steermouse
   vlc
-  webstorm
   xact
+  xbox360-controller-driver
 )
 
 echo "Installing applications..."
