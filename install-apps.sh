@@ -44,6 +44,8 @@ brew install caskroom/cask/brew-cask
 brew install macvim --with-override-system-vim
 brew install ${bins[@]}
 
+# postgres.app
+# pgadmin4
 apps=(
   adobe-reader
   anki
