@@ -1,6 +1,5 @@
-# Vim configuration.
+# Vim configuration (mac).
 alias vim='mvim -v'
-COPYFILE_DISABLE=1; export COPYFILE_DISABLE
+export COPYFILE_DISABLE=true
 
-export EDITOR=vim
-alias crontab="VIM_CRONTAB=true crontab"
+export VISUAL=vim
