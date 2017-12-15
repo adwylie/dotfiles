@@ -10,20 +10,20 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
-Plugin 'Valloric/YouCompleteMe'
+"Plugin 'Valloric/YouCompleteMe'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'bling/vim-airline'
-Plugin 'tpope/vim-fugitive'
-Plugin 'scrooloose/syntastic'
-Plugin 'scrooloose/nerdtree'
+"Plugin 'tpope/vim-fugitive'
+"Plugin 'scrooloose/syntastic'
+"Plugin 'scrooloose/nerdtree'
 Plugin 'altercation/vim-colors-solarized'
 "Plugin 'gorodinskiy/vim-coloresque'
 
-Plugin 'rizzatti/dash.vim'
-Plugin 'othree/html5.vim'
-Plugin 'pangloss/vim-javascript'
-Plugin 'jmcantrell/vim-virtualenv'
-Plugin 'tpope/vim-fireplace'
+"Plugin 'rizzatti/dash.vim'
+"Plugin 'othree/html5.vim'
+"Plugin 'pangloss/vim-javascript'
+"Plugin 'jmcantrell/vim-virtualenv'
+"Plugin 'tpope/vim-fireplace'
 "Plugin 'kchmck/vim-coffee-script'
 "Plugin 'fatih/vim-go'
 "Plugin 'gmarik/vim-markdown'
@@ -61,12 +61,12 @@ let g:gitgutter_sign_column_always=1
 au colorscheme * highlight SignColumn ctermbg=256
 
 " syntastic customization
-let g:syntastic_html_tidy_ignore_errors=[ ' proprietary attribute ', 'trimming empty <', 'unescaped &']
-let g:syntastic_javascript_checkers=['standard']
-let g:syntastic_python_python_exec='/usr/local/bin/python3'
+"let g:syntastic_html_tidy_ignore_errors=[ ' proprietary attribute ', 'trimming empty <', 'unescaped &']
+"let g:syntastic_javascript_checkers=['standard']
+"let g:syntastic_python_python_exec='/usr/local/bin/python3'
 
 " nerdtree
-map <C-n> :NERDTreeToggle<CR>
+"map <C-n> :NERDTreeToggle<CR>
 
 
 " Separate tabbing widths for specific languages
