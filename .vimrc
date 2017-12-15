@@ -12,7 +12,8 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 "Plugin 'Valloric/YouCompleteMe'
 Plugin 'airblade/vim-gitgutter'
-Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 "Plugin 'tpope/vim-fugitive'
 "Plugin 'scrooloose/syntastic'
 "Plugin 'scrooloose/nerdtree'
@@ -57,7 +58,7 @@ autocmd VimEnter * call AirlineInit()
 
 
 " vim-gitgutter customization
-let g:gitgutter_sign_column_always=1
+set signcolumn=yes
 au colorscheme * highlight SignColumn ctermbg=256
 
 " syntastic customization
