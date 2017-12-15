@@ -6,7 +6,7 @@
 # xcode
 # - xcode-select --install
 
-# firefox
+# firefox/google plugins
 # - adblock plus
 # - firebug
 # - ghostery
@@ -24,13 +24,9 @@ brew update
 
 bins=(
   git
-  leiningen
   macvim
-  node
   postgresql
   python3
-  rbenv
-  ruby-build
   sqlite
   wget
 )
@@ -44,20 +40,20 @@ brew install caskroom/cask/brew-cask
 brew install macvim --with-override-system-vim
 brew install ${bins[@]}
 
-# postgres.app
-# pgadmin4
 apps=(
   adobe-reader
   anki
+  electrum
   firefox
-  gimp
   garmin-express
-  google-hangouts
+  google-chrome
   java
-  keepassx
-  lastfm
+  jetbrains-toolbox
+  keepassxc
   libreoffice
   musicbrainz-picard
+  pgadmin4
+  postgres
   qbittorrent
   sketchup
   skype
@@ -65,12 +61,13 @@ apps=(
   vlc
   xact
   xbox360-controller-driver
+  ynab
 )
 
 echo "Installing applications..."
 brew cask install ${apps[@]}
 
-brea cask install  battle-net
+brew cask install  battle-net
 open /opt/homebrew-cask/Caskroom/battle-net/latest/Battle.net-Setup-enUS.app
 
 brew cask cleanup
