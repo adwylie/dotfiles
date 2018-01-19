@@ -35,7 +35,7 @@ gcc-libs 7.2.1+20171224-2
 gdm 3.26.2.1-1
 gettext 0.19.8.1-2
 gimp 2.8.22-1
-git 2.15.1-2
+git 2.16.0-1
 glibc 2.26-10
 gnome-backgrounds 3.26.2-1
 gnome-calculator 3.26.0-1
@@ -89,7 +89,7 @@ make 4.2.1-2
 man-db 2.7.6.1-2
 man-pages 4.14-1
 mousetweaks 3.12.0-2
-nautilus 3.26.2-2
+nautilus 3.26.2-3
 netctl 1.15-1
 network-manager-applet 1.8.11dev+7+ga52ccb2f-1
 networkmanager 1.10.3dev+38+g78ef57197-1
@@ -102,6 +102,7 @@ patch 2.7.5-1
 pciutils 3.5.6-1
 pcmciautils 018-7
 perl 5.26.1-1
+pgadmin4 2.0-1
 picard 1.4.2.git.20171126-1
 pkg-config 0.29.2-1
 postgresql 10.1-1
