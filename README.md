@@ -1,8 +1,7 @@
 ## Dotfiles
 
 Notes:
-* On Mac OS X I've installed MacVim with brew and aliased `alias vim='mvim -v'`.
-* Terminal colors: [linux](https://github.com/sigurdga/gnome-terminal-colors-solarized), [mac](https://github.com/tomislav/osx-terminal.app-colors-solarized).
+* Terminal colors: [linux](https://github.com/sigurdga/gnome-terminal-colors-solarized).
 
 Basic vim setup:
 * First, install vim.
