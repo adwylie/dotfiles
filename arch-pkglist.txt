@@ -1,5 +1,4 @@
 abiword
-anki
 aspell-en
 autoconf
 automake
@@ -20,9 +19,7 @@ cups-pdf
 device-mapper
 dhcpcd
 diffutils
-dwarffortress
 e2fsprogs
-electrum
 eog
 evince
 exfat-utils
@@ -37,7 +34,6 @@ gcc-libs
 gdm
 gedit
 gettext
-gimp
 git
 glibc
 gnome-backgrounds
@@ -68,21 +64,17 @@ gvfs-mtp
 gvfs-nfs
 gvfs-smb
 gzip
-hplip
 ifuse
 inetutils
-inkscape
 iproute2
 iputils
 java-openjfx
 jdk8-openjdk
-jdk9-openjdk
 keepassxc
 less
 lib32-gdk-pixbuf2
 lib32-gtk2
 lib32-libpulse
-lib32-nvidia-utils
 lib32-openal
 licenses
 linux
@@ -97,7 +89,6 @@ nautilus
 netctl
 network-manager-applet
 networkmanager
-npm
 nss-mdns
 nvidia
 nvidia-utils
@@ -121,8 +112,6 @@ python-pipenv
 qt4
 sed
 shadow
-steam
-steam-native-runtime
 sudo
 sushi
 sysfsutils
