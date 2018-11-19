@@ -1,15 +1,17 @@
 abiword
+adobe-source-han-sans-cn-fonts
+adobe-source-han-sans-tw-fonts
 aspell-en
 autoconf
 automake
 baobab
 bind-tools
-bison
 borg
 budgie-desktop
 cherrytree
 chromium
 cups-pdf
+deadbeef
 eog
 exfat-utils
 fakeroot
@@ -17,6 +19,7 @@ file
 flex
 gdm
 gedit
+git
 gnome-calculator
 gnome-calendar
 gnome-dictionary
@@ -34,10 +37,12 @@ ifuse
 inetutils
 iputils
 keepassxc
+ledger
 licenses
 logrotate
 make
 man-pages
+memtest86+
 mousetweaks
 nautilus
 netctl
@@ -54,7 +59,6 @@ python-pipenv
 sudo
 sushi
 transmission-gtk
-ttf-arphic-uming
 usbutils
 vi
 vim
@@ -62,9 +66,6 @@ vlc
 wget
 which
 whois
-wine-mono
-wine_gecko
-winetricks
 xdg-user-dirs-gtk
 xf86-video-vesa
 xorg-docs
