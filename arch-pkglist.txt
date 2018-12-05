@@ -1,6 +1,5 @@
 abiword
-adobe-source-han-sans-cn-fonts
-adobe-source-han-sans-tw-fonts
+adobe-source-han-sans-otc-fonts
 aspell-en
 autoconf
 automake
@@ -101,3 +100,4 @@ xorg-xvinfo
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
+zeal
