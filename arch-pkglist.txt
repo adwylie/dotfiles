@@ -7,7 +7,6 @@ baobab
 bind-tools
 borg
 budgie-desktop
-cherrytree
 chromium
 cups-pdf
 deadbeef
@@ -18,7 +17,7 @@ file
 flex
 gdm
 gedit
-git
+gimp
 gnome-calculator
 gnome-calendar
 gnome-dictionary
@@ -62,6 +61,7 @@ usbutils
 vi
 vim
 vlc
+vnstat
 wget
 which
 whois
@@ -101,3 +101,4 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 zeal
+zim
