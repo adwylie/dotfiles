@@ -8,6 +8,7 @@ bind-tools
 borg
 budgie-desktop
 chromium
+cmake
 cups-pdf
 deadbeef
 eog
@@ -15,8 +16,10 @@ exfat-utils
 fakeroot
 file
 flex
+gdb
 gdm
 gedit
+ghex
 gimp
 gnome-calculator
 gnome-calendar
@@ -34,6 +37,7 @@ gucharmap
 ifuse
 inetutils
 iputils
+java-openjfx
 keepassxc
 ledger
 licenses
@@ -47,9 +51,9 @@ netctl
 nvidia
 openjdk8-doc
 openjdk8-src
+openvpn
 pacman
 patch
-pcmciautils
 picard
 pkgconf
 postgresql
