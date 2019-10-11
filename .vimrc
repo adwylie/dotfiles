@@ -10,24 +10,10 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
-"Plugin 'Valloric/YouCompleteMe'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-"Plugin 'tpope/vim-fugitive'
-"Plugin 'scrooloose/syntastic'
-"Plugin 'scrooloose/nerdtree'
 Plugin 'altercation/vim-colors-solarized'
-"Plugin 'gorodinskiy/vim-coloresque'
-
-"Plugin 'rizzatti/dash.vim'
-"Plugin 'othree/html5.vim'
-"Plugin 'pangloss/vim-javascript'
-"Plugin 'jmcantrell/vim-virtualenv'
-"Plugin 'tpope/vim-fireplace'
-"Plugin 'kchmck/vim-coffee-script'
-"Plugin 'fatih/vim-go'
-"Plugin 'gmarik/vim-markdown'
 
 call vundle#end()
 
@@ -44,9 +30,7 @@ set t_Co=256
 set encoding=utf-8
 let g:airline#extensions#branch#enabled=1
 let g:airline#extensions#branch#emptymessage=''
-let g:airline#extensions#syntastic#enabled = 1
 let g:airline#extensions#tabline#enabled=1
-let g:airline#extensions#virtualenv#enabled=1
 let g:airline_powerline_fonts=0
 let g:airline_theme='solarized'
 
@@ -60,14 +44,6 @@ autocmd VimEnter * call AirlineInit()
 " vim-gitgutter customization
 set signcolumn=yes
 au colorscheme * highlight SignColumn ctermbg=256
-
-" syntastic customization
-"let g:syntastic_html_tidy_ignore_errors=[ ' proprietary attribute ', 'trimming empty <', 'unescaped &']
-"let g:syntastic_javascript_checkers=['standard']
-"let g:syntastic_python_python_exec='/usr/local/bin/python3'
-
-" nerdtree
-"map <C-n> :NERDTreeToggle<CR>
 
 
 " Separate tabbing widths for specific languages
